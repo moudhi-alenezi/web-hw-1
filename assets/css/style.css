@@ -1,0 +1,151 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 200px;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url("../fonts/myfont.TTF") format("truetype");
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 100px;
+  font-family: myfont;
+  color: red;
+  width: fit-content;
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+h1,
+.center {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align: center;
+  font-size: 22px;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f8c2c2;
+  width: 600px;
+  height: 210px;
+  outline-color: #d66a6a;
+  outline-style: solid;
+  outline-width: 5px;
+  border-radius: 15px;
+}
+
+ol {
+  display: table;
+  margin: auto;
+  font-size: 30px;
+  color: rgb(109, 91, 91);
+}
+
+I {
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+a {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: antiquewhite;
+  width: fit-content;
+  color: #9b4646;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.VID {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    width: fit-content;
+    color: #9b4646;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}
+
+.H11 {
+    background-color: antiquewhite; 
+    font-size: 40px;
+    width: fit-content; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-style: italic; 
+    color: #9b4646; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+}
+
+.VID1 {
+width: 420;
+height: 315;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-width: 20px;
+border-color: #9b4646;
+border-radius: 15px;
+}
+
+.MAIL {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    width: fit-content;
+    color: #9b4646;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}
